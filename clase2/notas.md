@@ -1,16 +1,18 @@
 # Notas clase 2
 
 ## Enlaces o vínculos
-
+```html
 <a href="url" target="_blank">contenido</a>
+```
 
 ## Imágenes
-
+```html
 <img src="ruta">
 <img src="ruta" alt="descripción">
+```
 
-> El atributo alt se utiliza para escribir una descripción de la imagen que se utilizará para visitantes de nuestro sitio que tengan alguna discapacidad visual
-> Queríamos utilizar alguna descripción breve ya que el usuario que ingrese con las opciones de accesibilidad en su navegador va a oír esta descripción
+El atributo alt se utiliza para escribir una descripción de la imagen que se utilizará para visitantes de nuestro sitio que tengan alguna discapacidad visual
+Queríamos utilizar alguna descripción breve ya que el usuario que ingrese con las opciones de accesibilidad en su navegador va a oír esta descripción
 
 ### Sitios para descargar imágenes
 
@@ -43,6 +45,7 @@ Affinity Studio <https://www.affinity.studio/es_419>
 ## Estructura de un documento html
 Cuando generamos un documento html este debe tener la siguiente estructura:
 
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -52,6 +55,7 @@ Cuando generamos un documento html este debe tener la siguiente estructura:
         Elementos visuales (se ven directamente dentro de la página)
     </body>
 </html>
+```
 
 Todo el contenido que queremos ver dentro de la página debería estar dentro del elemento body
 
