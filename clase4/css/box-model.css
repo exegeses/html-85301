@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: #f6e36c;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    color: hsl(30, 100%, 40%);
+}
+
+main{
+    width: 1024px;
+    margin: auto; /* centra una caja en horizontal */
+}
+
+h1{
+    border-left: 24px solid  hsl(30, 100%, 40%);
+    padding-left: 24px;
+}
+
+section{
+    /* margin -> separación hacia fuera */
+    /* padding -> separación hacia dentro */
+    padding: 32px;
+    border: 2px solid rgb(248, 124, 144);
+    background: #ffffff;
+    background: linear-gradient(
+                                60deg, 
+                                rgba(255, 255, 255, 1) 0%, rgba(246, 227, 108, 1) 100%
+                                );
+    border-radius: 12px;
+}
