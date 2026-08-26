@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&display=swap');
+
+/* reseteo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 1280px;
+    margin: auto;
+    background-color: #060709;
+    color: #F1F2ED;
+    font-family: "Cormorant Garamond", serif;
+    font-size: 20px;
+}
+a{text-decoration: none;}
+header{
+    height: 104px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    header nav a{
+        padding: 12px;
+        font-family: "Cinzel", serif;
+        color: #F1F2ED;
+    }

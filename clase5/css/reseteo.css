@@ -1,0 +1,27 @@
+/* selector universal */
+*{
+    margin: 0px;
+    padding: 0px;
+    /* solucionar padding */
+    box-sizing: border-box;
+    /* Impide que el padding se sume al ancho de la caja */
+}
+
+body{
+    font-family: sans-serif;
+    font-style: 40px;
+    background-color: hsl(270, 100%, 10%);
+    color: hsl(270, 100%, 90%);
+}
+main{
+    width: 768px;
+    margin: auto;
+    border: 1px solid hsla(270, 100%, 90%, 50%);
+}
+article{
+    width: 200px;
+    height: 128px;
+    padding: 20px;
+    background-color: hsl(30, 100%, 40%);
+    color: white;
+}
