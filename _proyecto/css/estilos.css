@@ -22,9 +22,35 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-
     header nav a{
         padding: 12px;
         font-family: "Cinzel", serif;
         color: #F1F2ED;
     }
+    header nav a:hover{
+        color: #D9B98C;
+    }
+
+main{
+    min-height: 576px;
+}
+
+footer{
+    width: 1280px;
+    height: 128px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}    
+    footer div a{
+        margin: 12px;
+    }
+    footer h2{
+        font-family: "Cinzel", serif;
+        font-size: 20px;
+        font-weight: normal;
+        color: hsla(35, 50%, 70%, 50%);
+    }
+        footer h2 img{
+            margin: 0px 16px;
+        }

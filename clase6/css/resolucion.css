@@ -1,0 +1,36 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    background-color: #3b3b3b;
+}
+section{
+    width: 768px;
+    margin: auto;
+    height: 340px;
+    background-color: #656565;
+}
+article{
+    width: 128px;
+    height: 128px;
+}
+#uno{
+    background-color: #a8ffa8;
+}
+#dos{
+    background-color: #a8e1ff;
+}
+#tres{
+    background-color: #ff9090;
+}
+
+/* resoplucion */
+#primero{
+    display: flex;
+    justify-content: space-between;
+}
+#primero div{
+    width: 256px;
+    height: 128px;
+    display: flex;
+}
