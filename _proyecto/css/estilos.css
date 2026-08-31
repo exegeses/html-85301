@@ -34,7 +34,29 @@ header{
 main{
     min-height: 576px;
 }
-
+/* hero section */
+    #hero{
+        height: 680px;
+        background-image: url(../img/bg-hero.jpg);
+        display: flex;
+        align-items: center;
+    }
+        #hero article{
+            width: 458px;
+            margin: 72px;
+            text-align: center;
+        }
+            #hero article h2{
+                margin: 32px;
+                font-family: "Cinzel", serif;
+                font-size: 20px;
+                font-weight: normal;
+            }
+            #hero article p{
+                width: 400px;
+                text-align: left;
+                margin-left: 48px;
+            }
 footer{
     width: 1280px;
     height: 128px;
