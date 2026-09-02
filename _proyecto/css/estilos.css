@@ -57,6 +57,54 @@ main{
                 text-align: left;
                 margin-left: 48px;
             }
+
+/* sección cards */
+    #cards{
+        padding: 32px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+        #cards article{
+            width: 236px;
+            padding-bottom: 16px;
+            background-color: hsla(230, 17%, 7%, 0.25);
+            border: 1px solid #1E1E1E;
+            text-align: center;
+        }
+            #cards article h2{
+                padding: 16px 0px;
+                font-family: Cinzel, serif;
+                font-size: 20px;
+                font-weight: 400;
+            }
+                #cards article h2 img{
+                    vertical-align: middle;
+                }
+            #cards article p{
+                margin: 0px 24px 24px 24px;
+                font-size: 16px;
+            }
+
+    /* cita */
+    #cita{
+        width: 1024px;
+        height: 96px;
+        margin: 40px auto;
+        background-image: url(../img/bg-cita.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+        #cita p{
+            margin-right: 40px;
+            font-size: 24px;
+            color: #D9B98C;
+        }
+        #cita span{
+            font-size: 24px;
+            color: hsla(35, 50%, 70%, 50%);
+        }
+
 footer{
     width: 1280px;
     height: 128px;
