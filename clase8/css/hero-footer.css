@@ -1,0 +1,35 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+body{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+    color: #1f1f1f;
+}
+#hero{
+    height: 560px;
+    background-image: url(../img/hero-3.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover; /* se adapta el contenedor */
+}
+main{
+    min-height: 480px;
+    background: #affafa;
+    background: linear-gradient(300deg, rgba(175, 250, 250, 1) 0%, rgba(246, 227, 108, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    h1{
+        color: rgb(1, 191, 191);
+        /* ejeX ejeY blur color */
+        text-shadow: 4px 0px 0px #9f9e9e;
+    }
+footer{
+    width: 768px;
+    margin: auto;
+    height: 216px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
