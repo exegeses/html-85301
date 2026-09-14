@@ -26,8 +26,16 @@
     <main>
 
         <section id="hero-unete">
+            <!-- conetenido únete a la comunidad -->
             <div>
-                <!-- conetenido únete a la comunidad -->
+                <img src="img/unete-text.png">
+                <img src="img/separador2.png">
+                <h2>
+                    Los grandes relatos cobran vida cuando se comparten.
+                </h2>
+                <p>
+                    Sumate a nuestra comunidad y formá parte de un espacio donde los fans de Juego de Tronos se reúnen para debatir, compartir teorías, descubrir contenido exclusivo y mucho más.
+                </p>
             </div>
             <!-- formulario -->
             <form action="unete.php" method="post">
@@ -43,8 +51,65 @@
                     Email
                     <input type="email" name="email">
                 </label>
+                <label>
+                    Asunto
+                    <select name="asunto">
+                        <option value="unirme">
+                            Quiero unirme a la comunidad
+                        </option>
+                        <option value="consulta">
+                            Quiero enviar una consulta
+                        </option>
+                    </select>
+                </label>
+                <label>
+                    Mensaje
+                    <textarea name="mensaje"></textarea>
+                </label>
                 
+                <button>Enviar mensaje</button>
+
             </form>
+        </section>
+
+        <section id="beneficios">
+            <h2>Beneficios de ser parte</h2>
+            <article>
+                <img src="img/crown-icon.png">
+                <div>
+                    <h3>CONTENIDO EXCLUSIVO</h3>
+                    <p>
+                        Accedé a artículos, análisis y material especial que no está disponible para el público general.
+                    </p>
+                </div>
+            </article>
+            <article>
+                <img src="img/comunidad-icon.png">
+                <div>
+                    <h3>COMUNIDAD DE FANS</h3>
+                    <p>
+                        Conectá con otros seguidores, compartí tus opiniones y participa en debates y foros.
+                    </p>
+                </div>
+            </article>
+            <article>
+                <img src="img/scroll-icon.png">
+                <div>
+                    <h3>NOVEDADES Y NOTICIAS</h3>
+                    <p>
+                        Sé el primero en enterarte de las últimas novedades, estrenos y eventos especiales.
+                    </p>
+                </div>
+            </article>
+            <article>
+                <img src="img/compass-icon.png">
+                <div>
+                    <h3>EVENTOS Y SORPRESAS</h3>
+                    <p>
+                        Participá en sorteos, actividades exclusivas y encuentros de la comunidad.
+                    </p>
+                </div>
+            </article>
         </section>
 
     </main>
